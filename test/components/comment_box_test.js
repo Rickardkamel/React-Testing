@@ -4,6 +4,7 @@ import CommentBox from '../../src/components/comment_box';
 
 describe('CommentBox', () => {
     let component;
+
     beforeEach(() => {
         component = renderComponent(CommentBox);
     });
@@ -19,5 +20,4 @@ describe('CommentBox', () => {
     it('has a button', () => {
         expect(component.find('button')).to.exist;
     });
-
 });
